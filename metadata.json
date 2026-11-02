@@ -1,0 +1,10 @@
+{
+  "name": "Remix Remix Al-Mizan | Islamic Knowledge \u0026 Scholarly AI",
+  "description": "Comprehensive Islamic Universal Knowledge Engine, authentic classical religious library, daily prayer times, Qibla compass, and daily news synthesized through scholarly frameworks.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.almizan.islamicapp",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:DE:8F:F1:E7:0F:06:43:D1:04:F7:C8:12:33:E3:65:21:49:9F:92:61:42:BB:21:B3:68:C3:9C:FB:25"
+      ]
+    }
+  }
+]

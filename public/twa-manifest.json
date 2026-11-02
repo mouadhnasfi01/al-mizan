@@ -1,0 +1,50 @@
+{
+  "packageId": "com.almizan.islamicapp",
+  "host": "ais-pre-4ijpcf7bvtv4cjutzlgp3p-506955410528.europe-west2.run.app",
+  "name": "Al-Mizan | Islamic Knowledge & Scholarly AI",
+  "launcherName": "Al-Mizan",
+  "display": "standalone",
+  "themeColor": "#0c0f0d",
+  "navigationColor": "#0c0f0d",
+  "backgroundColor": "#0c0f0d",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "/pwa-512x512.png",
+  "maskableIconUrl": "/pwa-maskable-512x512.png",
+  "appVersionCode": 1,
+  "appVersionName": "1.0.0",
+  "shortcuts": [
+    {
+      "name": "Prayer Times & Qibla",
+      "short_name": "Prayers",
+      "url": "/#prayers",
+      "icon": "/pwa-192x192.png"
+    },
+    {
+      "name": "Classical Library",
+      "short_name": "Library",
+      "url": "/#library",
+      "icon": "/pwa-192x192.png"
+    },
+    {
+      "name": "Scholarly Engine",
+      "short_name": "Scholar",
+      "url": "/#scholar",
+      "icon": "/pwa-192x192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": true
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  }
+}

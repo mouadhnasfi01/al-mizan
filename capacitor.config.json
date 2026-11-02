@@ -1,0 +1,16 @@
+{
+  "appId": "com.almizan.islamicapp",
+  "appName": "Al-Mizan",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "https://ais-pre-4ijpcf7bvtv4cjutzlgp3p-506955410528.europe-west2.run.app",
+    "cleartext": true,
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  }
+}

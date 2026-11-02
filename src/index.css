@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-arabic: 'Amiri', 'Scheherazade New', 'Traditional Arabic', serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-serif: 'Cinzel', Georgia, serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0c0f0d;
+    color: #e7e5e4;
+    overflow-x: hidden;
+  }
+}
+
+.font-arabic {
+  font-family: var(--font-arabic);
+}
+
+.font-classical {
+  font-family: var(--font-serif);
+}
+
+/* Custom delicate gold & emerald glow effects */
+.islamic-glow {
+  box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.15), 0 0 10px -2px rgba(217, 119, 6, 0.1);
+}
+
+.gold-glow {
+  box-shadow: 0 0 20px -3px rgba(245, 158, 11, 0.2);
+}
+
+/* Subtle arabesque background pattern */
+.bg-arabesque {
+  background-color: #0c0f0d;
+  background-image: radial-gradient(rgba(16, 185, 129, 0.07) 1px, transparent 1px), radial-gradient(rgba(217, 119, 6, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+/* Custom scrollbars for library & transcripts */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(28, 25, 23, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.6);
+}
